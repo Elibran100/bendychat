@@ -1,0 +1,50 @@
+#titulo{
+    font-family: 'Creepster', cursive;
+font-size: 100px;
+}
+body{
+    background: linear-gradient(to bottom,black,rgb(168, 120, 0),rgb(255, 209, 70),rgb(168, 120, 0),black);
+}
+input{
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+#bendychiquito{
+    width: 200px; ;
+}
+#iniciar_sesion{
+    background-color: goldenrod;
+}
+#salir{
+    background-color: goldenrod;
+}
+#section1{
+    background-color: darkgoldenrod;
+    width: 700px;
+    border-color:black ;
+    border-width: 5px;
+    border-style: dashed;
+}
+#añadir{
+    background-color: burlywood;
+}
+#salase{
+    background-color: darkgoldenrod;
+    width: 700px;
+}
+#div1{
+    background-color: darkgoldenrod;
+    width: 700px;
+}
+#div2{
+    background-color: rgb(168, 120, 0);
+    width: 400px;
+}
+#mensal{
+    background-color: rgb(139, 116, 0);
+    width: 300px;
+}
+#enviar{
+    background-color: burlywood;
+}

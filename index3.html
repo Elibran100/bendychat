@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bendychat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <center>
+        <button onclick="salir()" id="salir">salir</button>
+        <br>
+        <h1 id="titulo">BENDYCHAT</h1>
+        <img src="bendy chiquito.png" id="bendychiquito">
+        <br>
+        <br>
+        <div id="div2">
+        <h1 id="nomsal">nombre de sala</h1>
+        <p></p>
+        <h1 id="mensal">mensajes de la sala</h1>
+        <br>
+        <br>
+        </div>
+        <div>
+            <h1>envie un mensajes</h1>
+            <p></p>
+            <input type="text" placeholder="ponga su mensaje" id="pongase">
+            <p></p>
+            <button onclick="enviar()" id="enviar">enviar</button>
+        </div>
+    </center>
+    <script src="main3.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bendychat</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <center>
+        <button onclick="salir()" id="salir">salir</button>
+        <br>
+        <h1 id="titulo">BENDYCHAT</h1>
+        <img src="bendy chiquito.png" id="bendychiquito">
+        <br>
+        <br>
+<section id="section1">
+    <h1 id="hola">hola usuario</h1>
+    <h2>puede unirse a una sala que ya existe o crear una</h2>
+    <h2>añadir sala</h2>
+    <input type="text" id="añada" placeholder="añada el nombre de la sala">
+    <p></p>
+    <button onclick="añadir()" id="añadir">añadir</button>
+    <br>
+    <br>
+</section>
+<br>
+<h1 id="salase">salas existentes</h1>
+<div id="div1">
+    <h2 id="salas">salas creadas</h2>
+</div>
+    </center>
+    <script src="main2.js"></script>
+</body>
+</html>
